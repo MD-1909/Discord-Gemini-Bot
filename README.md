@@ -7,7 +7,7 @@ A Discord Bot that uses slash commands to invoke Google's Generative AI Model - 
 ## Requirements
 
 - Node.js
-- Discord Account
+- A Discord Account
 - A Google Account
 
 ## Setting up the project locally
@@ -17,7 +17,7 @@ A Discord Bot that uses slash commands to invoke Google's Generative AI Model - 
 #### Clone the repository and open it in a code editor of your choice
 
 ```
-https://github.com/MD-1909/DiscordGeminiBot.git
+git clone https://github.com/MD-1909/Discord-Gemini-Bot.git
 ```
 
 #### Install dependencies
@@ -28,7 +28,7 @@ npm install
 
 #### Generate a new Gemini API key
 
-Navigate to [API Keys](https://aistudio.google.com/app/apikey) and generate a new one, then copy it to the .env file in your local copy of the repo.  
+Navigate to [Google AI Studio API Keys](https://aistudio.google.com/app/apikey) and generate a new one, then copy it to the .env file in your local copy of the repo.  
 <br>
 
 ### Discord Setup
@@ -49,12 +49,12 @@ Navigate to [API Keys](https://aistudio.google.com/app/apikey) and generate a ne
 8. Reset the token to generate a new one and copy it to the .env file in the local copy of the repository.
 9. Scroll down to 'Privileged Gateway Intents' and turn on the 'Message Content Intent' option.
 10. Save your changes.
-11. Navigate to the 'Installation' tab.
-12. Select 'Guild Install' under Authorization Methods.
-13. Select 'Discord Provided Link' from the next dropdown
-14. Under 'Default Install Settings' add 'application.commands' and 'bot' in the 'Scopes' section and 'Administrator' in the 'Permissions' section.
-15. Now scroll up and copy the auto-generated URL.
-16. After the '=' paste your client id that is visible under 'Client information' on the same screen.
+11. Navigate to the 'OAuth2' tab and copy your 'Client ID'. Paste it in the .env file.
+12. Navigate to the 'Installation' tab.
+13. Select 'Guild Install' under Authorization Methods.
+14. Select 'Discord Provided Link' from the next dropdown
+15. Under 'Default Install Settings' add 'application.commands' and 'bot' in the 'Scopes' section and 'Administrator' in the 'Permissions' section.
+16. Now scroll up and copy the auto-generated URL.
 17. Open it in a new tab. You should be seeing a window like this <br/>
     <br/><img src="https://github.com/MD-1909/Discord-Gemini-Bot/assets/46313081/029160ab-5e1b-49f9-ac65-bf6d863e961e" width="400">
 18. Select your server from the dropdown and click 'Continue' -> 'Authorise'.
