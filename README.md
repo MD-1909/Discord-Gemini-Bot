@@ -2,7 +2,7 @@
 
 A Discord Bot that uses slash commands to invoke Google's Generative AI Model - Gemini, via its API.<br/>
 <br/>
-![Gemini-bot-demonstration](https://github.com/MD-1909/Discord-Gemini-Bot/assets/46313081/36c25807-87b5-421b-966e-53f24e84631a)
+<img src="https://github.com/MD-1909/Discord-Gemini-Bot/assets/46313081/36c25807-87b5-421b-966e-53f24e84631a" width="400">
 
 ## Requirements
 
@@ -56,7 +56,7 @@ Navigate to [API Keys](https://aistudio.google.com/app/apikey) and generate a ne
 15. Now scroll up and copy the auto-generated URL.
 16. After the '=' paste your client id that is visible under 'Client information' on the same screen.
 17. Open it in a new tab. You should be seeing a window like this <br/>
-    <br/>![Bot_Invite](https://github.com/MD-1909/Discord-Gemini-Bot/assets/46313081/029160ab-5e1b-49f9-ac65-bf6d863e961e)
+    <br/><img src="https://github.com/MD-1909/Discord-Gemini-Bot/assets/46313081/029160ab-5e1b-49f9-ac65-bf6d863e961e" width="400">
 18. Select your server from the dropdown and click 'Continue' -> 'Authorise'.
 19. Complete the Captcha and the bot should now be a part of your server.
 
