@@ -1,0 +1,24 @@
+{
+  "name": "Discord- Gemini-Bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot that uses Google's Gemini API to provide answers based on the user's prompt input in a Discord Server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD-1909/Discord-Gemini-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MD-1909/Discord-Gemini-Bot/issues"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "@google/generative-ai": "^0.8.0"
+  }
+}
